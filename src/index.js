@@ -42,14 +42,6 @@ const findMaxValueProblem = questions[0].title+'\n'+questions[0].description+'\n
 const sumOfTheEvenProblem = questions[1].title+'\n'+questions[1].description+'\n'+questions[1].testCases.map(testCase=>testCase.input+'\n'+testCase.output+'\n');
 
 const mySubmissions = [questions[1].title];
-// const showQuestions = questions.map(question=>{
-//    return`
-        
-//         <h1>${question.title}</h1>
-//         <h2>${question.description}</h2>
-//         <p>${question.testCases.map(testcase=>testcase.input+' '+testcase.output).join('<br/>')}</p>
-//     `
-// })
 
 
 app.post('/signup',(req,res)=>{
